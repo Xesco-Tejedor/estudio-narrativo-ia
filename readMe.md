@@ -12,7 +12,7 @@ Benvingut/da a l'Estudi Narratiu amb IA, una suite completa de creació literàr
 
 No cal instal·lar res. Pots començar a escriure la teva propera obra mestra a l'instant accedint a la demo online.
 
-👉 [Accedeix a l'aplicació online a StackBlitz (Fes clic aquí)](https://sb1j3vcpxky-zh30--5173--cb7c0bca.local-credentialless.webcontainer.io/)
+👉 [Accedeix a l'aplicació online a StackBlitz (Fes clic aquí)](https://sb1j3vcpxky-zh30--5173--cb7c0bca.local-credentialless.webcontainer.io/](https://sb1j3vcpxky-zh30--5173--cb7c0bca.local-credentialless.webcontainer.io)
 
 També pots accedir-hi directament des de [StackBlitz](https://stackblitz.com/).
 
