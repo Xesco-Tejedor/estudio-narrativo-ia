@@ -1,110 +1,96 @@
-📚 Estudi Narratiu amb IA
+# 🎨 Estudio Narrativo IA: La teva Suite Creativa Integral
 
-![alt text](https://img.shields.io/badge/Llic%C3%A8ncia-MIT-green.svg)
-![alt text](https://img.shields.io/badge/Estat-En%20Desenvolupament-blue.svg)
-![alt text](https://img.shields.io/badge/Versi%C3%B3-1.0-yellow.svg)
+Llicència | Estat | Versió
+--- | --- | ---
+MIT | En Desenvolupament | 0.1.0
 
-Benvingut/da a l'Estudi Narratiu amb IA, una suite completa de creació literària dissenyada per a escriptors, guionistes i creadors d'històries. Combina la teva creativitat amb el poder de la intel·ligència artificial per portar les teves idees al següent nivell.
-
----
-
-🚀 **Prova'l Ara Online!** 🚀
-
-No cal instal·lar res. Pots començar a escriure la teva propera obra mestra a l'instant accedint a la demo online.
-
-👉 [Accedeix a l'aplicació online a StackBlitz Fes clic aquí)](https://sb1j3vcpxky-zh30--5173--cb7c0bca.local-credentialless.webcontainer.io/).
-
-També pots accedir-hi directament des de [StackBlitz](https://stackblitz.com/).
-
-[Aquí va una captura de pantalla o un GIF impressionant de l'aplicació en funcionament!]
+Benvingut/da a **Estudio Narrativo IA**! La suite de creació literària definitiva, impulsada per la IA de Gemini. Combina gèneres, genera narratives extenses, il·lustra les teves escenes amb una immensa llibreria d'estils artístics i exporta el teu projecte complet. Dissenyat per a escriptors, dissenyadors de jocs, mestres de rol i qualsevol ment creativa que busqui una eina potent i versàtil.
 
 ---
 
-✨ Característiques Principals
+### ✨ Característiques Principals
 
-- **Suite d'Escriptura Integrada:** Un espai de treball unificat per gestionar tots els aspectes de la teva història, des de la idea inicial fins al manuscrit final.
-- **Creació Assistida per IA:** Utilitza la potència i flexibilitat d'OpenRouter per accedir a múltiples models d'IA que t'ajudaran a generar idees, diàlegs, descripcions i molt més.
-- **Tecnologia d'Última Generació:** Construït amb React 19 per a una experiència d'usuari excepcionalment fluida, ràpida i interactiva.
-- **Disseny Modern i Net:** Una interfície elegant creada amb TailwindCSS, totalment responsiva i dissenyada per a minimitzar distraccions i facilitar llargues sessions d'escriptura.
-- **Sistema Anti-Fallades:** Gaudeix d'una aplicació robusta i fiable. El sistema de gestió d'errors et proporciona feedback clar i protegeix el teu treball davant de qualsevol imprevist.
-- **Privacitat Primer:** La teva clau API d'OpenRouter es desa de forma segura i local al teu navegador, garantint que només tu hi tinguis accés.
-
----
-
-🔧 **Configuració Local (Opcional)**
-
-Si prefereixes executar l'aplicació localment al teu ordinador:
-
-**Requisits Previstos:**
-Assegura't de tenir instal·lat Node.js (que inclou npm).
-
-**Descarregar i Instal·lar el Projecte:**
-Clona el repositori i instal·la les dependències.
-
-```bash
-git clone https://github.com/el-teu-usuari/estudio-narrativo-ia.git
-cd estudio-narrativo-ia
-npm install
-```
-
-**Obtenir una Clau API d'OpenRouter (Molt Important):**
-Perquè la generació amb IA funcioni, necessites la teva pròpia clau.
-
-1. Ves a [OpenRouter.ai Keys](https://openrouter.ai/keys).
-2. Registra't per obtenir una clau API.
-3. A l'aplicació, busca la secció de configuració i desa la teva clau.
-
-**Executar l'Aplicació:**
-Inicia el servidor de desenvolupament local.
-
-```bash
-npm start
-```
-
-L'aplicació s'obrirà automàticament al teu navegador a http://localhost:5173 (o un port similar).
+*   🧭 **Flux de Treball Modular:** Un procés guiat pas a pas a través de mòduls (Resum, Gènere, Narrativa, Imatges, Exportació) per organitzar la teva creació.
+*   🔬 **Mescla de Gèneres Híbrids:**
+    *   Selecciona i combina fins a 3 gèneres literaris d'una llista predefinida.
+    *   Sistema de pesos ajustables (`%`) per controlar la influència de cada gènere en la història.
+    *   Valida que la suma total sigui 100% per a una barreja equilibrada.
+*   ✍️ **Generació de Narrativa Intel·ligent:**
+    *   Crea històries basades en un títol i "elements clau" que defineixes.
+    *   Defineix la longitud aproximada i l'estil (Narratiu, Poètic, Terror, etc.).
+    *   Capacitat per **continuar una narrativa existent**, afegint nous fragments de manera coherent.
+*   🖼️ **Generador d'Imatges Il·lustratives:**
+    *   Genera imatges basades en les teves descripcions (`prompts`).
+    *   Accés a una **extensa llibreria de més de 50 estils artístics**, organitzats per categories (Mestres Històrics, Fantasia, Còmic, Animació, etc.).
+    *   Inclou estils de mestres com *Frazetta, Moebius, Mignola, Ghibli, Van Gogh* i molts més.
+    *   Selecciona diferents relacions d'aspecte (1:1, 16:9, 9:16...).
+*   🎨 **Gestor d'Estils Artístics Personalitzable:**
+    *   No estàs limitat als estils predefinits!
+    *   **Afegeix els teus propis estils artístics** personalitzats amb nom, `prompt` i categoria.
+    *   **Edita i elimina** els estils que has creat per adaptar la llibreria a les teves necessitats.
+*   💾 **Exportació Versàtil de Projectes:**
+    *   Descarrega la teva obra completa en múltiples formats.
+    *   **HTML**: Un fitxer autocontingut i interactiu amb la teva història i una galeria d'imatges amb lightbox. Perfecte per compartir o imprimir.
+    *   **Markdown**: Ideal per a editors de text o sistemes de gestió de continguts.
+    *   **Text Pla (.txt)**: Només la narrativa, sense format.
+    *   **JSON**: Exporta tota l'estructura del projecte, incloent metadades, per a preservació o importació futura.
 
 ---
 
-🗺️ **Full de Ruta i Millores Futures**
+### 🔧 Configuració Local
 
-Aquest projecte està en constant evolució!
+Aquesta aplicació funciona directament al navegador però requereix una clau API de Google per comunicar-se amb els models de Gemini. Per executar-la localment, el més senzill és utilitzar un servidor de desenvolupament que pugui gestionar variables d'entorn.
 
-**⚠️ En Procés de Millora (Work in Progress)**
-
-- Optimització dels Mòduls d'IA: Refinar les instruccions enviades a la IA per a resultats més creatius i coherents en tots els mòduls de la suite.
-
-**💡 Pròximes Característiques**
-
-- Mode Fosc.
-- Exportació a formats professionals (p. ex., Markdown, Fountain, PDF).
-- Mòduls especialitzats: generador de diàlegs, constructor de mons, planificador de trames.
-- Desar i gestionar múltiples projectes localment al navegador.
-
----
-
-🚀 **Tecnologies Utilitzades**
-
-- ⚛️ React 19
-- 🎨 TailwindCSS
-- 🤖 JavaScript (Vanilla)
-- 🧠 API d'OpenRouter.ai
+1.  **Clonar el Repositori:**
+    ```bash
+    git clone https://github.com/el-teu-usuari/estudio-narrativo-ia.git
+    cd estudio-narrativo-ia
+    ```
+2.  **Configurar la Clau API:**
+    El projecte espera una variable d'entorn (`process.env.API_KEY`). Si utilitzes un entorn com **Vite**, pots fer el següent:
+    *   Crea un fitxer anomenat `.env.local` a l'arrel del projecte.
+    *   Afegeix la teva clau API dins d'aquest fitxer:
+        ```
+        VITE_API_KEY=LA_TEVA_CLAU_API_DE_GEMINI
+        ```
+    *   **Important**: Perquè funcioni amb Vite, hauràs de modificar `services/geminiService.ts` per llegir `import.meta.env.VITE_API_KEY` en lloc de `process.env.API_KEY`.
+3.  **Executar el Servidor de Desenvolupament:**
+    Si no tens un entorn de Node.js configurat, simplement pots obrir `index.html` en un navegador, però hauràs de substituir manualment `process.env.API_KEY` a `services/geminiService.ts` amb la teva clau per a proves.
 
 ---
 
-🙌 **Com Contribuir**
+### 🎯 Com Utilitzar l'Estudi
 
-Les contribucions són més que benvingudes! Si tens idees, has trobat un error o vols millorar el codi, no dubtis a obrir una Issue o enviar una Pull Request.
-
----
-
-✍️ **Autor**
-
-Xesco Tejedor
+1.  **Inicia el Projecte:** A la barra lateral, dona un **Títol** al teu projecte i descriu els **Elements Clau** de la teva història.
+2.  **Defineix el Gènere:** Ves al mòdul **Gènere**. Selecciona fins a 3 gèneres i ajusta els seus pesos fins a sumar 100%.
+3.  **Crea la Narrativa:** Al mòdul **Narrativa IA**, tria l'estil i la longitud i fes clic a "Generar". Pots continuar generant més text sobre el resultat.
+4.  **Il·lustra la teva Història:** Ves a **Imatges IA**. Escriu un `prompt` per a una escena, tria un estil artístic de la llista (o un de personalitzat) i genera la imatge. Repeteix per a totes les il·lustracions que necessitis.
+5.  **Exporta la teva Obra:** Finalment, al mòdul **Exportar**, tria el teu format preferit i descarrega el projecte complet.
 
 ---
 
-📄 **Llicència**
+### 🗺️ Full de Ruta
 
-Aquest projecte està sota la Llicència MIT.
+*   **Mode Fosc** per a una millor experiència visual.
+*   **Guardar/Carregar Projectes** a l'emmagatzematge local del navegador.
+*   **Traducció de la Interfície** a altres idiomes (castellà, anglès).
+*   **Més opcions d'exportació** (PDF, ePub).
+*   **Gestor de Personatges i Línies Temporals** com a nous mòduls.
 
-Creat per escriptors, per a escriptors. La teva propera gran història comença aquí.
+---
+
+### 🚀 Tecnologies Utilitzades
+
+*   **React 19** & **TypeScript**
+*   **Tailwind CSS** per a un disseny ràpid i responsiu.
+*   **Google Gemini API** (`@google/genai`) per a la generació de text i imatges.
+*   **ESM via esm.sh**: Configuració moderna sense paquetitzador (`no-bundle`).
+*   **React-based**: Estructura modular i componentitzada.
+
+---
+
+### 📄 Llicència
+
+Aquest projecte està sota la **Llicència MIT**.
+
+Forjant mons, una paraula i un píxel a la vegada. 🎨✍️
